@@ -1,0 +1,106 @@
+.nav_title{
+  width:300px;
+}
+
+.nav-md .site_title .img-sm,
+.nav-sm .site_title .img-lg{
+  display: none;
+}
+.nav-sm .site_title .img-sm{
+  margin-left: -5px;
+}
+
+.nav-md .container.body .col-md-3.left_col{
+  width:300px;
+}
+.main_container .top_nav {
+  margin-left: 300px;
+}
+.leftcol{
+  background: #fff;
+}
+.site_logo {
+  width: 220px;
+}
+
+.site_logo_firm_doc {
+  width: 210px;
+  position:absolute;
+}
+@media (min-width:768px)
+{
+	.site_logo_firm_doc 
+	{
+	  width: 170px;
+	  position:absolute;
+	}
+}
+.form-control-kartpay:focus{
+  border-color: #e6923c;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(195, 106, 54, 0.6);
+}
+.btn-kartpay{
+  color: #fff;
+  background: rgba(212,56,8,0.99);
+  background: -moz-linear-gradient(left, rgba(212,56,8,0.99) 11%, rgba(218,75,8,0.99) 23%, rgba(255,186,10,1) 95%, rgba(255,186,10,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(11%, rgba(212,56,8,0.99)), color-stop(23%, rgba(218,75,8,0.99)), color-stop(95%, rgba(255,186,10,1)), color-stop(100%, rgba(255,186,10,1)));
+  background: -webkit-linear-gradient(left, rgba(212,56,8,0.99) 11%, rgba(218,75,8,0.99) 23%, rgba(255,186,10,1) 95%, rgba(255,186,10,1) 100%);
+  background: -o-linear-gradient(left, rgba(212,56,8,0.99) 11%, rgba(218,75,8,0.99) 23%, rgba(255,186,10,1) 95%, rgba(255,186,10,1) 100%);
+  background: -ms-linear-gradient(left, rgba(212,56,8,0.99) 11%, rgba(218,75,8,0.99) 23%, rgba(255,186,10,1) 95%, rgba(255,186,10,1) 100%);
+}
+.btn-kartpay:hover{
+  color: #f2f2f2;
+  background-color: #e6923c;
+  border-color: #e6923c;
+}
+.btn-kartpay:active:hover{
+  background-color: #e6923c;
+  border-color: #e6923c;
+  color: #fff;
+}
+.btn-kartpay:active{
+  background-color: #e6923c;
+  border-color: #e6923c;
+  color: #fff;
+}
+.btn-kartpay:focus{
+  background-color: #e6923c;
+  border-color: #e6923c;
+  color: #fff;
+}
+.kartpay-box-step1 
+{ 
+	border:solid 1px #2d2d2d;  
+	text-align:center; background:#ffffff; 
+	padding:100px 50px 50px 50px;  
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	border:solid 1px #000000;
+	-moz-border-radius-topleft: 20px; 
+	-moz-border-radius-topright:20px; 
+	-moz-border-radius-bottomleft:20px; 
+	-moz-border-radius-bottomright:20px; 
+	-webkit-border-top-left-radius:20px; 
+	-webkit-border-top-right-radius:20px; 
+	-webkit-border-bottom-left-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	border-top-left-radius:20px; 
+	border-top-right-radius:20px; 
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.kartpay-button-step1  {
+    display : table-row;
+    vertical-align : bottom;
+    height : 1px;
+}
+
+.expiry{
+  border-color: orangered !important;
+}
+
+.card-js{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

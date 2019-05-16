@@ -1,0 +1,137 @@
+# Release Notes
+
+## v1.1.3.2 (xx-08-2017)
+
+### Added
+- Added db autobackup
+- Added button to change trasaction status on admin
+### Changed
+- Change ccencrypt tp openssl_encrypt on PaymentController
+### Fixed
+- Fixed back button on payment form
+- Fixed bug on merchant profile update
+------------------------------
+
+## v1.1.3.1 (14-08-2017)
+
+### Added
+- Nothing
+### Changed
+- Change some layout
+- Change id on transaction to kartpay_id
+### Fixed
+- Fixed Handling Deadlock when Logout
+- Fixed encryption handling on PaymentController
+------------------------------
+
+## v1.1.3.0 (11-08-2017)
+
+### Added
+- Added Protocol check on logout method
+- Added Merchant Delete
+- Added Some Validation rules on api
+### Changed
+- Change Default Profile Picture to dummy pic
+- Change Test Payment Layout from Live
+### Fixed
+- Fixed session expired on forgot password and register
+- Fixed clear login attempt when user authenticated on merchant and panel
+- Fixed login issue with same user on same IP
+- Fixed error message on API
+------------------------------
+
+## v1.1.2.0 (08-08-2017)
+
+### Added
+- Add Email Invitation Delay Settings
+- Add Delete User for Super Admin
+### Changed
+- Header layout
+- Add Compulsory to Merchant Kartpay Document Upload
+### Fixed
+- Fixed redirect from dashboard to merchant upload document
+- Fixed upload proprietor pan card for first time
+- Fixed validation and error message on document uploader
+- Fixed email invitation send delay
+- Fixed Forgot Password Merchant And Admin
+- Fixed Not Receive Merchant Document Uploader
+- Fixed Back Button for Registration, Forgot Password not allowed
+------------------------------
+
+## v1.1.1.4 (02-08-2017)
+
+### Added
+- Add Password Validation Icon
+- Add Not Receive Validation Document
+- Add Version number on footer
+### Changed
+- Change Promotional Offer Image on step 1
+### Fixed
+- Fixed bug on Upload Document Step3
+- Password button Issue
+------------------------------
+
+## v1.1.1.3 (01-08-2017)
+
+### Added
+- Nothing
+### Changed
+- Nothing
+### Fixed
+- Fixed bug on avatar update
+
+------------------------------
+
+## v1.1.1.2 (01-08-2017)
+
+### Added
+- Add comment on some controller
+### Changed
+- Remove some unused route and function on the some Controller
+### Fixed
+- Nothing
+
+------------------------------
+
+## v1.1.1.1 (01-08-2017)
+
+### Added
+- Add comment on some controller
+### Changed
+- Nothing
+### Fixed
+- fixed seeder
+
+------------------------------
+
+## v1.1.1.0 (31-07-2017)
+
+### Added
+- BIN Settings
+- BIN Master
+### Changed
+- Change logo on '404', ccavenue, payment_show, welcomeHome page
+### Fixed
+- Nothing
+
+------------------------------
+
+## v1.1.0.1 (31-07-2017)
+
+### Added
+- Staging Settings
+### Changed
+- Nothing
+### Fixed
+- Nothing
+
+------------------------------
+
+## v1.1.0.0 (25-07-2017)
+
+### Added
+- Nothing
+### Changed
+- Application Versioning Started for Better Development
+### Fixed
+- Nothing

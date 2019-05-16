@@ -1,0 +1,10 @@
+body{
+    background: #ffffff;
+}
+.nav-sm .nav.side-menu li a i.fa-ellipsis-v {
+    font-size: 13px !important;
+    line-height: 2 !important;
+}
+.nav-sm ul.nav.child_menu {
+    background: #ffffff;
+}
